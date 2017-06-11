@@ -68,47 +68,70 @@
   src: url(../fonts/Proxima-Nova-Light.otf);
   font-weight: 600; }
 
+@font-face {
+  font-family: 'ChevinLight';
+  src: url(../fonts/Chevin-Cyrillic-Light.ttf);
+}
 
-body {
-  color: white;
-  font-family: 'ProximaNovaRegular'; }
+@font-face {
+  font-family: 'ChevinBold';
+  src: url(../fonts/Chevin-Cyrillic-Bold.ttf);
+}
 
-/*#page {
-  position: relative;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-} */
+/* MEDIA QUERRY */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
     /*height: 836px;
-    min-height: 836px;*/ } }
+    min-height: 836px;*/ }
+}
+/* MEDIA QUERRY */
 
-header {
-  background: url("../images/header.png") no-repeat 0% 0%/100% auto;
 
+body {
+  color: white;
+  font: 13px 'ProximaNovaRegular';
+}
+
+.header-shadow {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.intro-header {
+  background: center 0 no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .logo {
   background: url("../images/Miekki_logo_whight.png") no-repeat;
-  margin-top: 46px;
+  margin-top: 40px;
   height: 100px;
-  /*width: 322px;
- height: 102px;*/ }
+}
 
 .header-block {
   margin-top: 70px;
-  font-family: 'Open sans', sans-serif;
-  line-height: 25px;
-  font-size: 18px; }
+  font: 18px "ChevinLight", sans-serif;
+}
 
 .header-block h1 {
-  font-size: 53pt;
-  width: 1200px; }
+  font: 53px 'ChevinBold';
+}
+
+.header-block h1>span {
+  font: 53px 'ChevinBold';
+  color: #64e5f4;
+}
+
+.subheading {
+  line-height: 40px;
+}
+
+.subheading ul {
+  padding: 0;
+}
 
 .header-block li {
   list-style-type: none;
@@ -118,21 +141,27 @@ header {
   content: ">"; }
 
 .header_btn {
-  margin: 110px 0 0 0; }
+  margin: 50px 0;
+}
+
+.header_btn a {
+  padding: 0 12px 0 0;
+  cursor: pointer;
+}
 
 .navbar {
   background-color: #31d4e7;
-  height: 65px;
+  height: 75px;
   border-radius: 0px;
   margin: 0px;
 }
 
 .navbar-brand {
-  height: 65px;
-  padding: 0; }
+  height: 55px;
+  padding: 10px 0; }
 
 .nav {
-  margin-right: 40px;
+  margin: 7.5px -15px;
   font-size: 20px; }
 
 .navbar-default .navbar-nav > li > a {

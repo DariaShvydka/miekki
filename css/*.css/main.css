@@ -51,20 +51,13 @@ body {
   color: white;
   font-family: Myriad Pro; }
 
-/*#page {
-  position: relative;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-} */
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
     height: 836px;
     min-height: 836px; } }
+
 
 .logo {
   background: url("../images/Miekki_logo_whight.png") no-repeat;
