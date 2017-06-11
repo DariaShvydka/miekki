@@ -1,0 +1,560 @@
+@charset "UTF-8";
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "MyriadProBold"; */
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "MyriadProItalic"; */
+@font-face {
+  font-family: "MyriadProItalic";
+  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"), url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+  font-family: "MyriadProSemiBold";
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+  font-family: "MyriadProBoldItalic";
+  src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+  src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"), url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "MyriadProSemiBoldItalic"; */
+@font-face {
+  font-family: "MyriadProSemiBoldItalic";
+  src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+  src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"), url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url(../fonts/Proxima-Nova-Regular.otf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url(../fonts/Proxima-Nova-Bold.otf);
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'ProximaNovaSemi';
+  src: url(../fonts/Proxima-Nova-Semibold.otf);
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url(../fonts/Proxima-Nova-Light.otf);
+  font-weight: 600; }
+
+
+body {
+  color: white;
+  font-family: 'ProximaNovaRegular'; }
+
+/*#page {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+} */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    /*height: 836px;
+    min-height: 836px;*/ } }
+
+header {
+  background: url("../images/header.png") no-repeat 0% 0%/100% auto;
+
+}
+
+.logo {
+  background: url("../images/Miekki_logo_whight.png") no-repeat;
+  margin-top: 46px;
+  height: 100px;
+  /*width: 322px;
+ height: 102px;*/ }
+
+.header-block {
+  margin-top: 70px;
+  font-family: 'Open sans', sans-serif;
+  line-height: 25px;
+  font-size: 18px; }
+
+.header-block h1 {
+  font-size: 53pt;
+  width: 1200px; }
+
+.header-block li {
+  list-style-type: none;
+  /* Убираем маркеры у списка */ }
+
+.header-block li:before {
+  content: ">"; }
+
+.header_btn {
+  margin: 110px 0 0 0; }
+
+.navbar {
+  background-color: #31d4e7;
+  height: 65px;
+  border-radius: 0px;
+  margin: 0px;
+}
+
+.navbar-brand {
+  height: 65px;
+  padding: 0; }
+
+.nav {
+  margin-right: 40px;
+  font-size: 20px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  height: 60px;
+  padding: 10px 15px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  text-decoration: underline; }
+
+.block-name {
+  padding: 50px 0;
+}
+
+.features {
+  background-color: #ffffff;
+  color: #282528; }
+
+.features-heading {
+  color:#f9461c;
+  font-family: 'ProximaNovaLight';
+}
+
+.fa-laptop {
+  background-image: url(../images/ico_music.png); }
+
+/* GALLERY (SLIDER) */
+
+.gallery-heading {
+  font-family: 'ProximaNovaLight';
+  color:#f9461c;
+}
+
+.slick-slide {
+  position: relative;
+  transition: transform 80ms;
+  color: #282528;
+  padding: 15px 15px 80px 15px;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.slick-slide span {
+  font-size: 20px;
+}
+
+.slick-slide:not(.slick-active) {
+  z-index: 0;
+  transform: scale(0.8);
+  opacity: 0.3;
+}
+
+.slick-active.slick-center+.slick-slide+.slick-slide {
+  z-index: 1;
+}
+
+.slick-active.slick-center+.slick-slide,
+.slick-center+.slick-cloned {
+  z-index: 2;
+}
+
+.slick-center {
+  z-index: 3;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #31d4e7!important;
+  font-family: 'FontAwesome'!important;
+  content: "\f10c"!important;
+  font-size: 20px!important;
+}
+
+.slick-dots li button::before {
+  color: #f9461c!important;
+  font-family: 'FontAwesome'!important;
+  content: "\f111"!important;
+  font-size: 16px!important;
+  opacity: 1!important;
+}
+
+.carousel-gallery .slick-slide img {
+  padding-bottom: 25px;
+}
+
+/* END OF GALLERY (SLIDER) */
+
+.video {
+  position: relative;
+  overflow: hidden;
+  padding: 50px 0;
+ }
+
+video {
+  min-height: 100%;
+  max-height: 700px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.creators {
+  background-color: #fafafa;
+  padding-bottom: 100px;
+}
+
+.creators-heading {
+  font-family: 'ProximaNovaLight';
+  color:#f9461c;
+}
+
+.creator-wrap {
+  height: 270px;
+  width: 270px;
+  position: relative;
+}
+
+.creator-wrap p {
+  color: #282528;
+  font: 18px "ProximaNovaSemi", sans-serif;
+  margin: 0;
+ }
+
+.creator-wrap span {
+  color: #646464;
+  font-size: 13px;
+}
+
+.creator-img {
+  height: 270px;
+  width: 270px;
+  object-fit: cover;
+}
+
+.creator-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 20px;
+  background: #f8e72b;
+  color: #282528;
+  font-family: "MyriadProItalic";
+  visibility: hidden !important;
+  opacity: 0 !important;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.creator-logo {
+  position: absolute;
+  top: 85%;
+  bottom: 0;
+  left: 30%;
+  right: 0;
+  height: 44px;
+  background: url(../images/M_logo_whight.png) no-repeat;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.creator-wrap:hover .creator-description,
+.creator-wrap:hover .creator-logo {
+  visibility: visible!important;
+  opacity: 1!important;
+}
+
+/* REVIEW-SLIDER BLOCK */
+
+.quotes {
+  font-size: 18px;
+  color: #282528;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.quotes-slider {
+  min-height: 820px;
+}
+
+.quotes-mark {
+  height: auto;
+  width: auto;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.quotes-slider p {
+  margin-bottom: 40px;
+}
+
+.quotes-slider-photo {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.quotes-naming {
+  color: #73e1ed;
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+/* END OF REVIEW-SLIDER BLOCK */
+
+.partners {
+  background-color: #73e1ed;
+  padding-bottom: 100px;
+}
+
+.partners-heading {
+  overflow: hidden;
+  font-family: 'ProximaNovaLight';
+}
+
+.partners-heading:before,
+.partners-heading:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 2px;
+  background-color: #ffffff;
+  position: relative;
+}
+.partners-heading:before {
+  margin-left: -100%;
+  left: -14px;
+}
+.partners-heading:after {
+  margin-right: -100%;
+  right: -14px;
+}
+
+.partners-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* CSS-SPRITES FOR HOVER */
+
+.partners-flex-item-1 {
+  width: 165px;
+  height: 27px;
+  background: url('../images/partner.png') no-repeat 0 0;
+}
+
+.partners-flex-item-1:hover {
+  background: url('../images/partner.png') no-repeat 0 -27px;
+}
+
+.partners-flex-item-2 {
+  width: 162px;
+  height: 30px;
+  background: url('../images/partner2.png') no-repeat 0 0;
+}
+
+.partners-flex-item-2:hover {
+  background: url('../images/partner2.png') no-repeat 0 -30px;
+}
+
+.partners-flex-item-3 {
+  width: 101px;
+  height: 41px;
+  background: url('../images/partner3.png') no-repeat 0 0;
+}
+
+.partners-flex-item-3:hover {
+  background: url('../images/partner3.png') no-repeat 0 -42px;
+}
+
+.partners-flex-item-4 {
+  width: 164px;
+  height: 30px;
+  background: url('../images/partner4.png') no-repeat 0 0;
+}
+
+.partners-flex-item-4:hover {
+  background: url('../images/partner4.png') no-repeat 0 -30px;
+}
+
+.partners-flex-item-5 {
+  width: 133px;
+  height: 34px;
+  background: url('../images/partner5.png') no-repeat 0 0;
+}
+
+.partners-flex-item-5:hover {
+  background: url('../images/partner5.png') no-repeat 0 -34px;
+}
+
+/* END OF PARTNERS BLOCK */
+
+/* CONTACT FORM */
+
+.contact-heading {
+  font-family: 'ProximaNovaLight';
+  color:#f9461c
+ }
+
+.contact-hello {
+  font-size: 24px;
+  color: #282528;
+}
+
+.contact-all {
+  margin-bottom: 100px;
+}
+
+#contact-form {
+  margin: 60px 0 30px 0;
+}
+
+.float-label-control {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.float-label-control input,
+.float-label-control textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #cccccc;
+  outline: none;
+  margin: 0px;
+  background: none;
+}
+
+.float-label-control input,
+.float-label-control textarea,
+.float-label-control label {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  font-size: 13px;
+}
+
+.float-label-control input.empty + label,
+.float-label-control textarea.empty + label {
+  top: 0.3em;
+  font-size: 13px;
+  animation: none;
+  -webkit-animation: none;
+}
+
+.float-label-control input:focus + label,
+.float-label-control textarea:focus + label {
+  display: none;
+}
+
+.float-label-control label {
+  position: absolute;
+  font-weight: normal;
+  top: -1.0em;
+  left: 0.08em;
+  color: #5b646e;
+  z-index: -1;
+  font-size: 0.85em;
+  -moz-animation: float-labels 300ms none ease-out;
+  -webkit-animation: float-labels 300ms none ease-out;
+  -o-animation: float-labels 300ms none ease-out;
+  -ms-animation: float-labels 300ms none ease-out;
+  -khtml-animation: float-labels 300ms none ease-out;
+  animation: float-labels 300ms none ease-out;
+  animation-play-state: running !important;
+  -webkit-animation-play-state: running !important;
+}
+
+.form-control:focus {
+  border-color: rgba(0,0,0,.5);
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.5)), 0 0 8px rgba(0,0,0,.5));
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.5), 0 0 8px rgba(0,0,0,.5);
+}
+
+.float-label-control ::-webkit-input-placeholder{
+  color: transparent;
+}
+.float-label-control :-moz-placeholder{
+  color: transparent;
+}
+.float-label-control ::-moz-placeholder{
+  color: transparent;
+}
+.float-label-control :-ms-input-placeholder{
+  color: transparent;
+}
+
+.contact-all--button {
+  display: flex;
+  align-items: center;
+}
+
+.fa-envelope {
+  color: #5b646e;
+}
+
+.contact-all button {
+  font-size: 16px;
+  border: none;
+  color: #5b646e;
+  background-color: transparent;
+}
+/* END OF CONTACT FORM */
+
+/* FOOTER */
+
+footer {
+  border-top: 1px solid #f8e514;
+  color: #282528;
+  font: 13px "MyriadProRegular", sans-serif;
+}
+
+.last-words {
+  padding: 35px 0;
+}
