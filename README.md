@@ -1,2 +1,1 @@
-# <a src="https://dariashvydka.github.io/miekki/"> miekki</a>
-landing page
+# [miekki landing page](https://dariashvydka.github.io/miekki/")
