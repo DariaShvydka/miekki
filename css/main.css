@@ -93,16 +93,17 @@ body {
   font: 13px 'ProximaNovaRegular';
 }
 
-.header-shadow {
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.intro-header {
+header .slick-slide {
+  transition: transform 80ms;
   background: center 0 no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.header-shadow {
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .logo {
@@ -206,46 +207,46 @@ body {
   color:#f9461c;
 }
 
-.slick-slide {
+.carousel-gallery .slick-slide {
   position: relative;
   transition: transform 80ms;
   color: #282528;
-  padding: 15px 15px 80px 15px;
   line-height: 24px;
   font-size: 13px;
+  padding: 15px 15px 80px 15px;
 }
 
-.slick-slide span {
+.carousel-gallery .slick-slide span {
   font-size: 20px;
 }
 
-.slick-slide:not(.slick-active) {
+.carousel-gallery .slick-slide:not(.slick-active) {
   z-index: 0;
   transform: scale(0.8);
   opacity: 0.3;
 }
 
-.slick-active.slick-center+.slick-slide+.slick-slide {
+.carousel-gallery .slick-active.slick-center+.slick-slide+.slick-slide {
   z-index: 1;
 }
 
-.slick-active.slick-center+.slick-slide,
-.slick-center+.slick-cloned {
+.carousel-gallery .slick-active.slick-center+.slick-slide,
+.carousel-gallery .slick-center+.slick-cloned {
   z-index: 2;
 }
 
-.slick-center {
+.carousel-gallery .slick-center {
   z-index: 3;
 }
 
-.slick-dots li.slick-active button::before {
+.carousel-gallery .slick-dots li.slick-active button::before {
   color: #31d4e7!important;
   font-family: 'FontAwesome'!important;
   content: "\f10c"!important;
   font-size: 20px!important;
 }
 
-.slick-dots li button::before {
+.carousel-gallery .slick-dots li button::before {
   color: #f9461c!important;
   font-family: 'FontAwesome'!important;
   content: "\f111"!important;
@@ -372,6 +373,36 @@ video {
   height: 100px;
   width: 100px;
   margin: 0 auto;
+}
+
+.carousel-quotes .slick-slide {
+  position: relative;
+  transition: transform 80ms;
+  color: #282528;
+  line-height: 24px;
+  font-size: 15px;
+  padding: 15px 15px 80px 15px;
+}
+
+.carousel-quotes .slick-slide:not(.slick-active) {
+  z-index: 0;
+  transform: scale(0.8);
+  opacity: 0.3;
+}
+
+.carousel-quotes .slick-dots li.slick-active button::before {
+  color: #31d4e7!important;
+  font-family: 'FontAwesome'!important;
+  content: "\f10c"!important;
+  font-size: 20px!important;
+}
+
+.carousel-quotes .slick-dots li button::before {
+  color: #f9461c!important;
+  font-family: 'FontAwesome'!important;
+  content: "\f111"!important;
+  font-size: 16px!important;
+  opacity: 1!important;
 }
 
 .quotes-naming {

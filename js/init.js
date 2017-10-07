@@ -36,8 +36,8 @@ $('.carousel-quotes').slick({
     $('.carousel-header').slick({
         dots: false,
         arrows: false,
-        /*autoplay: true,
-        autoplaySpeed: 2000,*/
+        autoplay: true,
+        autoplaySpeed: 2000,
     });
 
 
