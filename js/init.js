@@ -33,5 +33,12 @@ $('.carousel-quotes').slick({
     autoplaySpeed: 2000,
     });
 
+    $('.carousel-header').slick({
+        dots: false,
+        arrows: false,
+        /*autoplay: true,
+        autoplaySpeed: 2000,*/
+    });
+
 
     });
