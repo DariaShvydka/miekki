@@ -1,2 +1,1 @@
-# miekki
-landing page
+# [miekki landing page](https://dariashvydka.github.io/miekki/)
